@@ -1,6 +1,6 @@
 "use strict";
 const mongoose = require("mongoose");
-const connectString = "mongodb://127.0.0.1:27017/WEB";
+const connectString = "mongodb+srv://huy24112001:huy24112001@cluster0.jip4s.mongodb.net/BE-Project?retryWrites=true&w=majority&appName=Cluster0";
 
 class Database {
   constructor() {
